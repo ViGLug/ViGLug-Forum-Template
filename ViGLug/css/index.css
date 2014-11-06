@@ -1190,14 +1190,14 @@ span.lowerframe span
 	background: url(../images/theme/menu_gfx.png) no-repeat 0 0;
 }
 /* the hover effects */
-.dropmenu li a.firstlevel:hover, .dropmenu li:hover a.firstlevel
+.dropmenu li a.firstlevel:hover, .dropmenu li:hover a.firstlevel, .dropmenu li:first-child a.firstlevel
 {
 	background: url(../images/theme/menu_gfx.png) no-repeat 100% -30px;
 	color: #fff;
 	cursor: pointer;
 	text-decoration: none;
 }
-.dropmenu li a.firstlevel:hover span.firstlevel, .dropmenu li:hover a.firstlevel span.firstlevel
+.dropmenu li a.firstlevel:hover span.firstlevel, .dropmenu li:hover a.firstlevel span.firstlevel, .dropmenu li:first-child a.firstlevel span.firstlevel
 {
 	background: url(../images/theme/menu_gfx.png) no-repeat 0 -30px;
 }
