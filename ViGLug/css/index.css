@@ -1101,7 +1101,7 @@ span.lowerframe span
 {
 	padding: 0 0.5em;
 	float: left;
-	margin: 0;
+	margin: 0 0 5px;
 	width: 98%;
 }
 
@@ -1401,7 +1401,7 @@ img#smflogo
 #upper_section
 {
 	padding: 5px;
-	margin-bottom: 1.5em;
+	margin-bottom: 0;
 }
 #upper_section ul li.greeting
 {
@@ -1456,7 +1456,7 @@ div#upper_section div.news form
 /* clearing the floats */
 #top_section
 {
-	min-height: 65px;
+	min-height: 155px;
 	overflow: hidden;
 	margin-bottom: 3px;
 }
@@ -1498,7 +1498,7 @@ div#upper_section div.news form
 #footer_section
 {
 	text-align: center;
-	background: url(../images/theme/main_block.png) no-repeat 0 -820px;
+	background: url(../images/theme/main_block.png) no-repeat 0 -1020px;
 	padding-left: 20px;
 }
 #footer_section span.smalltext
@@ -1507,7 +1507,7 @@ div#upper_section div.news form
 }
 #footer_section div.frame
 {
-	background: url(../images/theme/main_block.png) no-repeat 100% -820px;
+	background: url(../images/theme/main_block.png) no-repeat 100% -1020px;
 	display: block;
 	padding: 60px 0 0 0;
 }
