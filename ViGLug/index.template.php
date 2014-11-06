@@ -415,7 +415,7 @@ function template_menu()
 			<ul class="dropmenu" id="menu_nav">
 				<li>
 					<a class="firstlevel" href="', empty($_SERVER['HTTPS']) ? 'http' : 'https', '://viglug.org/">
-						<span class="firstlevel" style="font-weight:bold;">Home Page</span>
+						<span class="firstlevel">Home Page</span>
 					</a>
 				</li>';
 

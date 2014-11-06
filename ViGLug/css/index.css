@@ -1201,6 +1201,10 @@ span.lowerframe span
 {
 	background: url(../images/theme/menu_gfx.png) no-repeat 0 -30px;
 }
+.dropmenu li:first-child a.firstlevel span.firstlevel
+{
+	font-weight: bold;
+}
 /* the hover effects on level2 and 3 */
 .dropmenu li li a:hover, .dropmenu li li:hover>a
 {
