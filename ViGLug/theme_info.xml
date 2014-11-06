@@ -14,5 +14,5 @@
 	<!-- Templates to load on startup. Default is "index". -->
 	<templates>index</templates>
 	<!-- Base this theme off another? Default is blank, or no. It could be "default". -->
-	<based-on></based-on>
+	<based-on>default</based-on>
 </theme-info>

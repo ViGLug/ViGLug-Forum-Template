@@ -412,7 +412,12 @@ function template_menu()
 
 	echo '
 		<div id="main_menu">
-			<ul class="dropmenu" id="menu_nav">';
+			<ul class="dropmenu" id="menu_nav">
+				<li>
+					<a class="firstlevel" href="', empty($_SERVER['HTTPS']) ? 'http' : 'https', '://viglug.org/">
+						<span class="firstlevel" style="font-weight:bold;">Home Page</span>
+					</a>
+				</li>';
 
 	foreach ($context['menu_buttons'] as $act => $button)
 	{
