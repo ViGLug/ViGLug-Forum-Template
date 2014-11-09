@@ -1337,7 +1337,7 @@ ul#navigation li
 /* the framing graphics */
 #header
 {
-	background: url(../images/theme/main_block.png) #fefefe no-repeat 0 -480px;
+	background: url(../images/theme/main_block.png) no-repeat 0 -480px;
 	padding-left: 20px;
 }
 #header div.frame
