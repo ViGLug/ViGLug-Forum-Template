@@ -1339,12 +1339,14 @@ ul#navigation li
 {
 	background: url(../images/theme/main_block.png) no-repeat 0 -480px;
 	padding-left: 20px;
+    margin-right: 10px;
 }
 #header div.frame
 {
 	background: url(../images/theme/main_block.png) no-repeat 100% -480px;
 	display: block;
 	padding: 5px 20px 1em 0;
+    margin-right: -10px;
 }
 /* the content section */
 #content_section
@@ -1500,6 +1502,7 @@ div#upper_section div.news form
 	text-align: center;
 	background: url(../images/theme/main_block.png) no-repeat 0 -1020px;
 	padding-left: 20px;
+    margin-right: 10px;
 }
 #footer_section span.smalltext
 {
@@ -1510,6 +1513,7 @@ div#upper_section div.news form
 	background: url(../images/theme/main_block.png) no-repeat 100% -1020px;
 	display: block;
 	padding: 60px 0 0 0;
+    margin-right: -10px;
 }
 #footer_section ul li, #footer_section p
 {
