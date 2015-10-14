@@ -86,7 +86,7 @@ function template_html_above()
 
 	// The ?fin20 part of this link is just here to make sure browsers don't cache it wrongly.
 	echo '
-	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/index', $context['theme_variant'], '.css?fin20" />;
+	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/index', $context['theme_variant'], '.css?fin20" />
 	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/responsive', $context['theme_variant'], '.css?fin20" />';
 
 	// Some browsers need an extra stylesheet due to bugs/compatibility issues.
@@ -125,7 +125,7 @@ function template_html_above()
 	<meta http-equiv="Content-Type" content="text/html; charset=', $context['character_set'], '" />
 	<meta name="description" content="', $context['page_title_html_safe'], '" />', !empty($context['meta_keywords']) ? '
 	<meta name="keywords" content="' . $context['meta_keywords'] . '" />' : '', '
-	<title>', $context['page_title_html_safe'], '</title>;
+	<title>', $context['page_title_html_safe'], '</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />';
 
 	// Please don't index these Mr Robot.
