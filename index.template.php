@@ -87,6 +87,7 @@ function template_html_above()
 	// The ?fin20 part of this link is just here to make sure browsers don't cache it wrongly.
 	echo '
 	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/index', $context['theme_variant'], '.css?fin20" />';
+	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/responsive', $context['theme_variant'], '.css?fin20" />';
 
 	// Some browsers need an extra stylesheet due to bugs/compatibility issues.
 	foreach (array('ie7', 'ie6', 'webkit') as $cssfix)
@@ -125,6 +126,7 @@ function template_html_above()
 	<meta name="description" content="', $context['page_title_html_safe'], '" />', !empty($context['meta_keywords']) ? '
 	<meta name="keywords" content="' . $context['meta_keywords'] . '" />' : '', '
 	<title>', $context['page_title_html_safe'], '</title>';
+	<meta name="viewport" content="width=device-width, initial-scale=1" />';
 
 	// Please don't index these Mr Robot.
 	if (!empty($context['robot_no_index']))
@@ -424,6 +426,7 @@ function template_menu()
 		echo '
 				<li id="button_', $act, '">
 					<a class="', $button['active_button'] ? 'active ' : '', 'firstlevel" href="', $button['href'], '"', isset($button['target']) ? ' target="' . $button['target'] . '"' : '', '>
+						<span class="responsive_menu ', $act, '"></span>
 						<span class="', isset($button['is_last']) ? 'last ' : '', 'firstlevel">', $button['title'], '</span>
 					</a>';
 		if (!empty($button['sub_buttons']))
